@@ -69,7 +69,7 @@ namespace NathanHoad
 	}
 
 
-	public static void StopSound(AudioStream resource)
+	public static void StopUISound(AudioStream resource)
 	{
 	  Instance.Call("stop_ui_sound", resource);
 	}
